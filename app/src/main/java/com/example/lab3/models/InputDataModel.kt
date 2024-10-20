@@ -1,4 +1,4 @@
-package com.example.lab3
+package com.example.lab3.models
 
 data class InputDataModel(
     val Pc: Double = 0.0,

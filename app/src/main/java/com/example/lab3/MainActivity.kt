@@ -12,7 +12,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Lab3Theme {
-                SolarView()
+                SolarView(SolarViewModel())
             }
         }
     }
